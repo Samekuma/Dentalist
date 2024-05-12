@@ -1,0 +1,40 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+a {
+  color: inherit; /* Set the color to inherit from the parent element */
+  text-decoration: none; /* Remove underline */
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Eudoxus";
+  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold") format("woff2"),
+    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Light") format("woff2"),
+    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium") format("woff2"),
+    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular") format("woff2");
+}
+
+body {
+  font-family: "Eudoxus", sans-serif;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}

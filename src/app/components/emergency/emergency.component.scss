@@ -1,0 +1,79 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+  //   width: 100%;
+
+  .image-container {
+    position: relative;
+    width: 400px;
+    height: 510px;
+    border-radius: 32px;
+    background: #dbeffa;
+
+    .dental-patient-img {
+      position: absolute;
+      width: 480px;
+      height: 380px;
+      border-radius: 32px;
+      object-fit: cover;
+      top: 73px;
+      left: 37px;
+    }
+  }
+
+  .emergency-text {
+    gap: 1.5rem;
+
+    .emergency-header-title {
+      font-family: Eudoxus Sans;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.08em;
+      text-align: left;
+      color: #583fbc;
+    }
+    .emergency-header-text {
+      font-family: Eudoxus Sans;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60.48px;
+      letter-spacing: -0.04em;
+      text-align: left;
+      width: 620px;
+      height: 120px;
+      color: #181945;
+      margin-top: 0.75rem;
+    }
+    .lorem-text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      width: 510px;
+      height: 84px;
+      opacity: 0.8px;
+      color: #181945;
+      margin-top: 1rem;
+
+      //   text-align: left;
+    }
+    .btn-appointment {
+      width: 240px;
+      height: 64px;
+      border-radius: 16px;
+      font-family: Eudoxus Sans;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: white;
+      background-color: #583fbc;
+      border-style: none;
+      margin-top: 2.5rem;
+    }
+  }
+}
