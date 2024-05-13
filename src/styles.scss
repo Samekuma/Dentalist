@@ -20,15 +20,28 @@ ul {
 }
 
 @font-face {
-  font-family: "Eudoxus";
-  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold") format("woff2"),
-    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Light") format("woff2"),
-    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium") format("woff2"),
-    url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular") format("woff2");
+  font-family: "es-bold";
+  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold") format("woff2");
+}
+
+@font-face {
+  font-family: "es-light";
+  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Light") format("woff2");
+}
+
+@font-face {
+  font-family: "es-medium";
+  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium") format("woff2");
+}
+
+@font-face {
+  font-family: "es-regular";
+  src: url("/assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular")
+    format("woff2");
 }
 
 body {
-  font-family: "Eudoxus", sans-serif;
+  font-family: 'es-bold', 'es-light', 'es-medium', 'es-regular', sans-serif;
 }
 
 a:hover,

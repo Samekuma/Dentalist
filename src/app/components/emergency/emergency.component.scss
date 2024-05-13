@@ -27,7 +27,7 @@ section {
     gap: 1.5rem;
 
     .emergency-header-title {
-      font-family: Eudoxus Sans;
+      font-family: es-bold;
       font-size: 12px;
       font-weight: 700;
       line-height: 20px;
@@ -36,7 +36,7 @@ section {
       color: #583fbc;
     }
     .emergency-header-text {
-      font-family: Eudoxus Sans;
+      font-family: es-bold;
       font-size: 48px;
       font-weight: 700;
       line-height: 60.48px;
@@ -48,6 +48,7 @@ section {
       margin-top: 0.75rem;
     }
     .lorem-text {
+      font-family: es-medium;
       font-size: 18px;
       font-weight: 500;
       line-height: 28px;
@@ -64,7 +65,7 @@ section {
       width: 240px;
       height: 64px;
       border-radius: 16px;
-      font-family: Eudoxus Sans;
+      font-family: es-bold;
       font-size: 16px;
       font-weight: 700;
       line-height: 24px;

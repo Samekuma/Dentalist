@@ -14,6 +14,7 @@ section {
     padding-left: 4rem;
     gap: 1.5rem;
     .hero-h1 {
+      font-family: es-bold;
       font-size: 4rem;
       font-weight: 700;
       line-height: 80.64px;
@@ -23,6 +24,7 @@ section {
       width: 32.25rem;
     }
     .sub-text {
+      font-family: es-medium;
       font-size: 1.125rem;
       font-weight: 500;
       line-height: 28px;
@@ -73,6 +75,7 @@ section {
 
         .contact-text {
           .dental {
+            font-family: es-medium;
             font-size: 12px;
             font-weight: 700;
             line-height: 20px;
@@ -80,6 +83,7 @@ section {
             color: #583fbc;
           }
           .phone-number {
+            font-family: es-medium;
             font-size: 16px;
             font-weight: 700;
             line-height: 22px;
@@ -136,10 +140,10 @@ section {
   align-items: center;
   justify-content: center;
   .hero-info {
-    font-family: Eudoxus;
+    font-family: es-medium;
     font-size: 38px;
     font-weight: 500;
-    line-height: 72px;
+    line-height: 60px;
     letter-spacing: -0.03em;
     text-align: center;
     color: #181945;

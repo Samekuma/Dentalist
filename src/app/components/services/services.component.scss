@@ -1,7 +1,7 @@
 section {
   margin: 4rem 2rem 1rem 2rem;
   .service-title {
-    font-family: Eudoxus;
+    font-family: es-bold;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
@@ -15,7 +15,7 @@ section {
     justify-content: space-between;
     align-items: start;
     .text-1 {
-      font-family: Eudoxus Sans;
+      font-family: es-bold;
       font-size: 48px;
       font-weight: 700;
       line-height: 60.48px;
@@ -25,7 +25,7 @@ section {
       width: 455px;
     }
     .text-2 {
-      font-family: Eudoxus Sans;
+      font-family: es-medium;
       font-size: 18px;
       font-weight: 500;
       line-height: 28px;
@@ -105,6 +105,7 @@ section {
       justify-content: center;
 
       .text {
+        font-family: es-bold;
         font-size: 20px;
         font-weight: 700;
         line-height: 28px;
@@ -115,6 +116,7 @@ section {
         color: #181945;
       }
       .text-lorem {
+        font-family: es-medium;
         font-size: 1rem;
         font-weight: 500;
         line-height: 26px;
@@ -186,6 +188,7 @@ section {
       justify-content: center;
 
       .implant-text-title {
+        font-family: es-bold;
         font-size: 20px;
         font-weight: 700;
         line-height: 28px;
@@ -196,6 +199,7 @@ section {
         color: #181945;
       }
       .implant-text-lorem {
+        font-family: es-medium;
         font-size: 1rem;
         font-weight: 500;
         line-height: 26px;
@@ -267,6 +271,7 @@ section {
       justify-content: center;
 
       .whitening-text-title {
+        font-family: es-bold;
         font-size: 20px;
         font-weight: 700;
         line-height: 28px;
@@ -277,6 +282,7 @@ section {
         color: #181945;
       }
       .whitening-text-lorem {
+        font-family: es-medium;
         font-size: 1rem;
         font-weight: 500;
         line-height: 26px;
@@ -348,6 +354,7 @@ section {
       justify-content: center;
 
       .canal-text-title {
+        font-family: es-bold;
         font-size: 20px;
         font-weight: 700;
         line-height: 28px;
@@ -358,6 +365,7 @@ section {
         color: #181945;
       }
       .canal-text-lorem {
+        font-family: es-medium;
         font-size: 1rem;
         font-weight: 500;
         line-height: 26px;
@@ -391,6 +399,7 @@ section {
       background: #583fbc1a;
 
       .btn-text {
+        font-family: es-bold;
         font-size: 16px;
         font-weight: 700;
         line-height: 24px;

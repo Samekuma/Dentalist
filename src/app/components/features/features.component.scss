@@ -11,7 +11,7 @@ section {
     margin-top: 4rem;
 
     .features {
-      font-family: Eudoxus Sans;
+      font-family: es-bold;
       font-size: 12px;
       font-weight: 700;
       line-height: 20px;
@@ -20,12 +20,22 @@ section {
       color: #583fbc;
     }
     .specialized {
+      font-size: es-bold;
       font-size: 48px;
       font-weight: 700;
       line-height: 60.48px;
       letter-spacing: -0.04em;
       text-align: left;
       color: #181945;
+    }
+    .lorem {
+      font-family: es-medium;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      color: #181945;
+      text-align: left;
     }
   }
 
@@ -65,6 +75,26 @@ section {
             width: 40px;
             height: 40px;
           }
+        }
+      }
+      .feature-text {
+        .feature-text-1 {
+          font-family: es-bold;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: -0.02em;
+          color: #181945;
+          text-align: left;
+        }
+        .feature-text-2 {
+          font-family: es-medium;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 26px;
+          letter-spacing: -0.02em;
+          text-align: left;
+          color: #181945;
         }
       }
     }
