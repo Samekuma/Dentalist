@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class FeaturesComponent {
   qualityIcon: string = '/assets/Icons/qualityIcon.svg';
+  insuranceIcon: string = '/assets/Icons/insuranceIcon.svg';
+  // Fsd stands for full-service dentistry.
+  fsdIcon: string = '/assets/Icons/fsdIcon.svg';
+  // nje stands for full-service dentistry.
+  njeIcon: string = '/assets/Icons/njeIcon.svg';
 }

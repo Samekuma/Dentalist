@@ -3,7 +3,7 @@ section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 1rem;
+  margin: 1rem 1rem 5rem 1rem;
   border-radius: 2rem;
   background-color: #dbdefa;
   //   gap: 10rem;
@@ -18,6 +18,7 @@ section {
       letter-spacing: 0.08em;
       text-align: left;
       color: #583fbc;
+      padding-bottom: 1rem;
     }
     .specialized {
       font-size: es-bold;
@@ -27,6 +28,7 @@ section {
       letter-spacing: -0.04em;
       text-align: left;
       color: #181945;
+      padding-bottom: 1rem;
     }
     .lorem {
       font-family: es-medium;
@@ -35,71 +37,284 @@ section {
       line-height: 28px;
       letter-spacing: -0.02em;
       color: #181945;
-      text-align: left;
+      text-align: start;
+      width: 756px;
     }
   }
 
   .features-container {
     display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-top: 5rem;
+    margin-bottom: 6.5rem;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    flex: 0 0 calc(50% - 10px);
-    .features {
-      .features-container-1 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 1rem;
-        .service-quality-1 {
+    // flex:  1 1 auto;
+    // flex-wrap: wrap;
+    // flex: 0 0 calc(50% - 10px);
+
+    .service-card-1 {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      justify-content: center;
+      .features {
+        .features-container-1 {
           display: flex;
+          flex-direction: row;
           align-items: center;
-          justify-content: center;
-          width: 80px;
-          height: 80px;
-          border-radius: 16px;
-          border: 1px;
-          background: #ffffff33;
-          border: 0.8px solid white;
-
-          //   border-image-source: linear-gradient(
-          //     135deg,
-          //     #ffffff 0%,
-          //     rgba(255, 255, 255, 0) 100%
-          //   );
-
-          .service-quality-2 {
+          gap: 1rem;
+          .service-quality-1 {
             display: flex;
             align-items: center;
             justify-content: center;
-            width: 60px;
-            height: 60px;
+            width: 80px;
+            height: 80px;
             border-radius: 16px;
-            background-color: white;
+            border: 1px;
+            background: #ffffff33;
+            border: 0.8px solid white;
 
-            .qualityIcon {
-              width: 40px;
-              height: 40px;
+            //   border-image-source: linear-gradient(
+            //     135deg,
+            //     #ffffff 0%,
+            //     rgba(255, 255, 255, 0) 100%
+            //   );
+
+            .service-quality-2 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 60px;
+              height: 60px;
+              border-radius: 16px;
+              background-color: white;
+
+              .qualityIcon {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+          .feature-text {
+            .feature-text-1 {
+              font-family: es-bold;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: -0.02em;
+              color: #181945;
+              text-align: left;
+            }
+            .feature-text-2 {
+              font-family: es-medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: -0.02em;
+              text-align: left;
+              color: #181945;
+              width: 280px;
             }
           }
         }
-        .feature-text {
-          .feature-text-1 {
-            font-family: es-bold;
-            font-size: 20px;
-            font-weight: 700;
-            line-height: 28px;
-            letter-spacing: -0.02em;
-            color: #181945;
-            text-align: left;
+      }
+
+      // Insurance accepted style
+
+      .insurance {
+        .insurance-container-1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+          .insurance-quality-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            border: 1px;
+            background: #ffffff33;
+            border: 0.8px solid white;
+
+            //   border-image-source: linear-gradient(
+            //     135deg,
+            //     #ffffff 0%,
+            //     rgba(255, 255, 255, 0) 100%
+            //   );
+
+            .insurance-quality-2 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 60px;
+              height: 60px;
+              border-radius: 16px;
+              background-color: white;
+
+              .qualityIcon {
+                width: 40px;
+                height: 40px;
+              }
+            }
           }
-          .feature-text-2 {
-            font-family: es-medium;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 26px;
-            letter-spacing: -0.02em;
-            text-align: left;
-            color: #181945;
+          .insurance-text {
+            .insurance-text-1 {
+              font-family: es-bold;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: -0.02em;
+              color: #181945;
+              text-align: left;
+            }
+            .insurance-text-2 {
+              font-family: es-medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: -0.02em;
+              text-align: left;
+              color: #181945;
+              width: 280px;
+            }
+          }
+        }
+      }
+    }
+
+    .service-card-2 {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      // justify-content: center;
+
+      // Full Service Dentistry (fsd) Styling
+      .fsd {
+        .fsd-container-1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+          .fsd-quality-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            border: 1px;
+            background: #ffffff33;
+            border: 0.8px solid white;
+
+            //   border-image-source: linear-gradient(
+            //     135deg,
+            //     #ffffff 0%,
+            //     rgba(255, 255, 255, 0) 100%
+            //   );
+
+            .fsd-quality-2 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 60px;
+              height: 60px;
+              border-radius: 16px;
+              background-color: white;
+
+              .fsdIcon {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+          .fsd-text {
+            .fsd-text-1 {
+              font-family: es-bold;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: -0.02em;
+              color: #181945;
+              text-align: left;
+            }
+            .fsd-text-2 {
+              font-family: es-medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: -0.02em;
+              text-align: left;
+              color: #181945;
+              width: 280px;
+            }
+          }
+        }
+      }
+
+      // No judgement Ever (nje) style
+
+      .nje {
+        .nje-container-1 {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 1rem;
+          .nje-quality-1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+            border: 1px;
+            background: #ffffff33;
+            border: 0.8px solid white;
+
+            //   border-image-source: linear-gradient(
+            //     135deg,
+            //     #ffffff 0%,
+            //     rgba(255, 255, 255, 0) 100%
+            //   );
+
+            .nje-quality-2 {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 60px;
+              height: 60px;
+              border-radius: 16px;
+              background-color: white;
+
+              .njeIcon {
+                width: 40px;
+                height: 40px;
+              }
+            }
+          }
+          .nje-text {
+            .nje-text-1 {
+              font-family: es-bold;
+              font-size: 20px;
+              font-weight: 700;
+              line-height: 28px;
+              letter-spacing: -0.02em;
+              color: #181945;
+              text-align: left;
+            }
+            .nje-text-2 {
+              font-family: es-medium;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 26px;
+              letter-spacing: -0.02em;
+              width: 280px;
+              text-align: left;
+              color: #181945;
+            }
           }
         }
       }
