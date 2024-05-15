@@ -1,0 +1,108 @@
+section {
+  padding-bottom: 10rem;
+  .blog-title {
+    font-family: es-medium;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color: #583fbc;
+  }
+  .title-subtext {
+    font-family: es-medium;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60.48px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    color: #181945;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .card-holder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    .blog-container {
+      border: 1px solid #1819451a;
+      border-radius: 32px;
+      .blog-card {
+        position: relative;
+        .blogImage {
+          padding: 1.5rem;
+          border-radius: 45px;
+          object-fit: cover;
+        }
+        .calendar {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: absolute;
+          top: 37px;
+          left: 37px;
+          background-color: white;
+          width: 60px;
+          height: 60px;
+          border-radius: 16px;
+          .day {
+            font-family: es-bold;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 22.68px;
+            letter-spacing: -0.02em;
+            text-align: center;
+          }
+          .month {
+            font-family: es-bold;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 17.64px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #18194599;
+          }
+        }
+      }
+    }
+
+    .card-body {
+      padding: 1.5rem;
+      .title-1 {
+        font-family: es-bold;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.08em;
+        text-align: left;
+        color: #583fbc;
+        // padding-top: 0.6rem;
+      }
+      .title-1-subtext {
+        font-family: Eudoxus Sans;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        width: 250px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        text-align: left;
+        color: #181945;
+      }
+      .card-lorem {
+        font-family: es-regular;
+        width: 352px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        text-align: left;
+      }
+    }
+  }
+}

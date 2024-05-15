@@ -13,6 +13,10 @@ import { HeroSectionComponent } from './components/hero-section/hero-section.com
 import { ServicesComponent } from './components/services/services.component';
 import { EmergencyComponent } from './components/emergency/emergency.component';
 import { FeaturesComponent } from './components/features/features.component';
+import { DentistryComponent } from './components/dentistry/dentistry.component';
+import { TestimonialComponent } from './components/testimonial/testimonial.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +30,11 @@ import { FeaturesComponent } from './components/features/features.component';
     HeroSectionComponent,
     ServicesComponent,
     EmergencyComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    DentistryComponent,
+    TestimonialComponent,
+    BlogComponent,
+    BookAppointmentComponent,
   ],
   imports: [
     BrowserModule,

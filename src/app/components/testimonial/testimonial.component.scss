@@ -1,0 +1,94 @@
+.testimonial-container {
+  margin: 1rem 1rem 5rem 1rem;
+  background-color: #d9ebfa;
+  border-radius: 32px;
+
+  .text-container {
+    padding: 5rem 5rem 0rem 5rem;
+    .testimonial-title {
+      font-family: es-bold;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.08em;
+      color: #583fbc;
+      margin-bottom: 1rem;
+      //   text-align: center;
+    }
+    .about {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      .people-statement {
+        font-family: es-bold;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60.48px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #181945;
+        width: 488px;
+      }
+      .lorem-text {
+        font-family: es-regular;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        width: 430px;
+        color: #181945;
+      }
+    }
+  }
+
+  .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-bottom: 5rem;
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: white;
+      text-align: start;
+      width: 400px;
+      height: 287px;
+      border-radius: 16px;
+      position: relative;
+      margin-top: 5rem;
+      .robert,
+      .bessie,
+      .albert {
+        position: absolute;
+        top: -30px;
+        left: 161px;
+      }
+      .name {
+        font-family: es-medium;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #181945;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+      .comment {
+        font-family: es-medium;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        width: 320px;
+        color: #181945;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+section {
+  .map-container {
+    .map {
+      border-radius: 32px;
+    }
+    .map-content {
+      .icon-bg-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 64px;
+        height: 64px;
+        border-radius: 16px;
+        border: 1px solid #583fbc;
+        background-color: #583fbc;
+        backdrop-filter: blur(8px);
+
+        // border-image-source: linear-gradient(135deg, #583FBC 0%, rgba(88, 63, 188, 0) 100%);
+
+        // border-image-source: linear-gradient(
+        //   135deg,
+        //   #583fbc 0%,
+        //   rgba(88, 63, 188, 0) 100%
+        // );
+
+        .icon-bg-2 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 48px;
+          height: 48px;
+          border-radius: 16px;
+          background-color: #583fbc;
+        }
+      }
+    }
+  }
+}
