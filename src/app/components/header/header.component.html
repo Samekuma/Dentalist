@@ -1,11 +1,11 @@
 <header class="header-container">
-  <div class="logo">
+  <div class="logo" routerLink="/home">
     <img [src]="logoIcon" alt="" />
     <p class="logo-title">Dentalist.</p>
   </div>
 
   <div class="nav-item-container">
-    <ul >
+    <ul>
       <li><a routerLink="/about">About Us</a></li>
       <li><a routerLink="/new-patient">New Patient</a></li>
       <li><a routerLink="/our-services">Our Services</a></li>
@@ -14,6 +14,6 @@
   </div>
 
   <div class="btn-container">
-    <button class="btn" >Book appointment</button>
+    <button class="btn">Book appointment</button>
   </div>
 </header>

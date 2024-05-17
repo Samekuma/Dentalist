@@ -1,0 +1,203 @@
+section {
+  background-color: #041434;
+  color: white;
+  padding: 4rem 2rem 2rem 2rem;
+
+  .footer-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+    .first-container {
+      .logo-container {
+        display: flex;
+        align-items: center;
+        gap: 0.7rem;
+        .brand-name {
+          font-family: es-bold;
+          font-size: 24px;
+          font-weight: 800;
+          line-height: 28px;
+          letter-spacing: -0.02em;
+          text-align: left;
+          span {
+            font-family: es-bold;
+            font-size: 24px;
+            font-weight: 800;
+            line-height: 28px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #7b55ec;
+          }
+        }
+      }
+      .text-desc {
+        font-family: es-regular;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        width: 490px;
+        color: #ffffff99;
+        margin-top: 1.5rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .media-container {
+        .follow {
+          font-family: es-regular;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 20px;
+          letter-spacing: 0.08em;
+          text-align: left;
+          color: #ffffff99;
+          padding-bottom: 1rem;
+        }
+        .media-icon {
+          display: flex;
+          align-items: center;
+          gap: 2.5rem;
+          padding-bottom: 6rem;
+
+          .fbIcons,
+          .twitter,
+          .instagram {
+            width: 22px;
+            height: 22px;
+          }
+        }
+      }
+    }
+    .quick-link-container {
+      .quick-link-text {
+        font-family: es-regular;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.08em;
+        text-align: left;
+        color: #ffffff99;
+        padding-bottom: 1.5rem;
+      }
+      .list-item {
+        display: flex;
+        flex-direction: column;
+        font-family: es-regular;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        gap: 1.5rem;
+      }
+    }
+
+    .info-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      align-items: start;
+
+      .container-des {
+        font-family: es-regular;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.08em;
+        text-align: left;
+        color: #ffffff99;
+        // padding-bottom: 1rem;
+      }
+      .phone-card,
+      .clock-container,
+      .address-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .bg-1,
+        .clock-bg-1,
+        .address-bg-1 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 64px;
+          height: 64px;
+          border-radius: 16px;
+          background: #ffffff33;
+          border: 1px solid #ffffff33;
+
+          // border-image-source: linear-gradient(
+          //   135deg,
+          //   #ffffff 0%,
+          //   rgba(255, 2554, 255, 0) 100%
+          // );
+
+          .bg-2,
+          .clock-bg-2,
+          .address-bg-2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 48px;
+            height: 48px;
+            border-radius: 16px;
+            background-color: white;
+          }
+        }
+        .details {
+          .phone,
+          .open,
+          .clinic {
+            font-family: es-regular;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #ffffff99;
+            padding-bottom: 0.5rem;
+          }
+          .number,
+          .time,
+          .main-address {
+            font-family: es-bold;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -0.02em;
+            text-align: left;
+          }
+        }
+      }
+    }
+  }
+
+  .all-right-reserved-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-top: 4rem;
+
+    .reserved-text {
+      font-family: es-medium;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      text-align: left;
+      color: #ffffff99;
+    }
+    .privacy {
+      display: flex;
+      align-items: end;
+      gap: 2rem;
+      font-family: es-medium;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 26px;
+      text-align: left;
+      cursor: pointer;
+    }
+  }
+}

@@ -41,7 +41,15 @@ ul {
 }
 
 body {
-  font-family: 'es-bold', 'es-light', 'es-medium', 'es-regular', sans-serif;
+  font-family: "es-bold", "es-light", "es-medium", "es-regular", sans-serif;
+}
+
+.helper {
+  color: red;
+  padding-top: 0.7rem;
+  font-family: es-light;
+  font-weight: 500;
+  font-style: italic;
 }
 
 a:hover,

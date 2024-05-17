@@ -17,6 +17,8 @@ import { DentistryComponent } from './components/dentistry/dentistry.component';
 import { TestimonialComponent } from './components/testimonial/testimonial.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,10 +37,12 @@ import { BookAppointmentComponent } from './components/book-appointment/book-app
     TestimonialComponent,
     BlogComponent,
     BookAppointmentComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
