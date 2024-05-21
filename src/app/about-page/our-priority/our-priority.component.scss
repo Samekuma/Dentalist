@@ -1,0 +1,89 @@
+.priority-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 2rem 2rem 2rem;
+
+  .img-container {
+    // width: 50%;
+    .review-container {
+      position: relative;
+      width: 550px;
+      height: 371px;
+
+      .review-bg {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 400px;
+        height: 306px;
+        background-color: #dbeffa;
+        border-radius: 32px;
+      }
+
+      .reviewing-patient {
+        position: absolute;
+        border-radius: 32px;
+        object-fit: cover;
+        width: 500px;
+        height: 306px;
+        bottom: 0;
+        right: 0;
+      }
+    }
+  }
+
+  .priority-text-container {
+    // width: 50%;
+    
+    .priority-title {
+      font-family: es-bold;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.08em;
+      text-align: left;
+      color: #583fbc;
+    }
+
+    .our-client-text {
+      font-family: es-bold;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60.48px;
+      letter-spacing: -0.04em;
+      text-align: left;
+      color: #181945;
+      width: 500px;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .lorem-text {
+      font-family: es-medium;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      width: 437px;
+      color: #181945;
+      padding-bottom: 2.5rem;
+    }
+
+    .btn-booking {
+      padding: 1.4rem;
+      cursor: pointer;
+      border-radius: 16px;
+      border-style: none;
+      background-color: #583fbc;
+      font-family: es-bold;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: white;
+    }
+  }
+}

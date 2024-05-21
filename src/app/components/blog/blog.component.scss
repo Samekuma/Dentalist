@@ -1,5 +1,6 @@
 section {
-  padding-bottom: 10rem;
+  padding-bottom: 5rem;
+
   .blog-title {
     font-family: es-medium;
     font-size: 12px;
@@ -9,8 +10,9 @@ section {
     text-align: center;
     color: #583fbc;
   }
+
   .title-subtext {
-    font-family: es-medium;
+    // font-family: es-medium;
     font-size: 48px;
     font-weight: 700;
     line-height: 60.48px;
@@ -30,13 +32,16 @@ section {
     .blog-container {
       border: 1px solid #1819451a;
       border-radius: 32px;
+
       .blog-card {
         position: relative;
+
         .blogImage {
           padding: 1.5rem;
           border-radius: 45px;
           object-fit: cover;
         }
+
         .calendar {
           display: flex;
           align-items: center;
@@ -49,6 +54,7 @@ section {
           width: 60px;
           height: 60px;
           border-radius: 16px;
+
           .day {
             font-family: es-bold;
             font-size: 18px;
@@ -57,6 +63,7 @@ section {
             letter-spacing: -0.02em;
             text-align: center;
           }
+
           .month {
             font-family: es-bold;
             font-size: 14px;
@@ -72,6 +79,7 @@ section {
 
     .card-body {
       padding: 1.5rem;
+
       .title-1 {
         font-family: es-bold;
         font-size: 12px;
@@ -94,6 +102,7 @@ section {
         text-align: left;
         color: #181945;
       }
+
       .card-lorem {
         font-family: es-regular;
         width: 352px;

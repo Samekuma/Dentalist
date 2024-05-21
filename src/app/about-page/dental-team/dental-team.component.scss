@@ -1,0 +1,60 @@
+section {
+  margin: 2rem;
+
+  .first-text {
+    font-family: es-bold;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color: #583fbc;
+  }
+
+  .second-text-container {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 1rem;
+
+    .get-to-know {
+      font-family: es-bold;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60.48px;
+      letter-spacing: -0.04em;
+      text-align: left;
+      color: #181945;
+      width: 500px;
+    }
+
+    .teams-lorem-text {
+      font-family: es-regular;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      width: 435px;
+    }
+  }
+
+  // .team-img-container {
+  //    background: #fadbe2;
+  //     // position: relative;
+  //     width: 500px;
+  //     height: 200px;
+  //   .team-1-container {
+  //     background: #fadbe2;
+  //     position: relative;
+  //     width: 500px;
+  //     height: 200px;
+
+  //     .drJenny {
+  //       position: absolute;
+  //       top: 10px;
+  //       bottom: 10px;
+  //     }
+  //   }
+  // }
+}

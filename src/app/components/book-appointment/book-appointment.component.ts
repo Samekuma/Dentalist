@@ -10,6 +10,7 @@ export class BookAppointmentComponent implements OnInit {
   mapImg: string = '/assets/Images/mapImg.svg';
   homeIcon: string = '/assets/Icons/homeIcon.svg';
   callIcon: string = '/assets/Icons/callIcon.svg';
+  locationpointer: string = '/assets/Icons/location.svg';
   appointmentForm!: FormGroup;
 
   ngOnInit(): void {

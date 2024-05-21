@@ -60,7 +60,12 @@ section {
           border-style: solid;
           border-color: whitesmoke;
           border-radius: 16px;
-          margin: 1rem;
+          margin-right: 1rem;
+          background: #ffffff33;
+          border: 1px solid #ffffff33;
+
+          // border-image-source: linear-gradient(135deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+
           .second-bg {
             background-color: whitesmoke;
             width: 48px;

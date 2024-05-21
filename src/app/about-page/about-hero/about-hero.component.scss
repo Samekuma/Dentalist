@@ -1,0 +1,78 @@
+section {
+  margin: 2rem 2rem 2rem 2rem;
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-between;
+
+  .hero-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .about-container {
+      .about-title {
+        font-family: es-bold;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 80.64px;
+        letter-spacing: -0.04em;
+        text-align: left;
+        color: #181945;
+      }
+      .about-subtext {
+        font-family: es-regular;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: -0.02em;
+        text-align: left;
+        color: #181945;
+        width: 472px;
+        padding-top: 1rem;
+        padding-bottom: 2.5rem;
+      }
+
+      .cta-button {
+        font-family: es-bold;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: white;
+        width: 240px;
+        height: 64px;
+        border-radius: 16px;
+        background-color: #583fbc;
+        border-style: none;
+      }
+    }
+    
+    .hero-img-container {
+      position: relative;
+      width: 620px;
+      height: 480px;
+
+      .dentistDoc {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        border-radius: 32px;
+      }
+
+      .dentalPatient {
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 32px;
+      }
+
+      .pattern {
+        position: absolute;
+        right: 259px;
+        bottom: 33px;
+        z-index: -1;
+        // border-radius: 32px;
+      }
+    }
+  }
+}

@@ -19,6 +19,12 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BookAppointmentComponent } from './components/book-appointment/book-appointment.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { AboutHeroComponent } from './about-page/about-hero/about-hero.component';
+import { OurPriorityComponent } from './about-page/our-priority/our-priority.component';
+import { SafetyComponent } from './about-page/safety/safety.component';
+import { DentalTeamComponent } from './about-page/dental-team/dental-team.component';
+// import { AboutHeroComponent } from './aboutComponents/about-hero/about-hero.component';
+// import { OurPriorityComponent } from './aboutCompoenets/our-priority/our-priority.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +44,12 @@ import { ReactiveFormsModule } from '@angular/forms';
     BlogComponent,
     BookAppointmentComponent,
     FooterComponent,
+    AboutHeroComponent,
+    OurPriorityComponent,
+    SafetyComponent,
+    DentalTeamComponent,
+    // AboutHeroComponent,
+    // OurPriorityComponent,
   ],
   imports: [
     BrowserModule,

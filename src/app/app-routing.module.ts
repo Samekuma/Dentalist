@@ -13,10 +13,15 @@ const routes: Routes = [
   { path: 'new-patient', component: NewPatientComponent },
   { path: 'our-services', component: OurServicesComponent },
   { path: 'contact-us', component: ContactUsComponent },
+  // {
+  //   path: 'fixture',
+  //   loadChildren: async () =>
+  //     (await import('./fixture/fixture.module')).FixtureModule,
+  // },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
