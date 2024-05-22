@@ -1,0 +1,18 @@
+<section>
+  <p class="faq-header-title">FAQs</p>
+  <p class="faq-subtitle">Frequently asked question</p>
+
+  <!-- FAQ section -->
+  <div *ngFor="let faq of faqs" class="question-container">
+    <div class="text-card" (click)="toggleFAQ(faq)">
+      <h3 class="question-title">
+        {{ faq.question }}
+      </h3>
+
+      <img [src]="caret" class="caret" alt="" />
+    </div>
+    <div class="response">
+      <p class="faq-response" *ngIf="faq.open">{{ faq.answer }}</p>
+    </div>
+  </div>
+</section>

@@ -23,6 +23,7 @@ import { AboutHeroComponent } from './about-page/about-hero/about-hero.component
 import { OurPriorityComponent } from './about-page/our-priority/our-priority.component';
 import { SafetyComponent } from './about-page/safety/safety.component';
 import { DentalTeamComponent } from './about-page/dental-team/dental-team.component';
+import { FaqsComponent } from './about-page/faqs/faqs.component';
 // import { AboutHeroComponent } from './aboutComponents/about-hero/about-hero.component';
 // import { OurPriorityComponent } from './aboutCompoenets/our-priority/our-priority.component';
 
@@ -48,6 +49,7 @@ import { DentalTeamComponent } from './about-page/dental-team/dental-team.compon
     OurPriorityComponent,
     SafetyComponent,
     DentalTeamComponent,
+    FaqsComponent,
     // AboutHeroComponent,
     // OurPriorityComponent,
   ],

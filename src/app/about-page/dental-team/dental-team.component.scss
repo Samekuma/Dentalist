@@ -39,22 +39,86 @@ section {
     }
   }
 
-  // .team-img-container {
-  //    background: #fadbe2;
-  //     // position: relative;
-  //     width: 500px;
-  //     height: 200px;
-  //   .team-1-container {
-  //     background: #fadbe2;
-  //     position: relative;
-  //     width: 500px;
-  //     height: 200px;
+  .dentalist-team {
+    margin-top: 4rem;
+    .team-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
 
-  //     .drJenny {
-  //       position: absolute;
-  //       top: 10px;
-  //       bottom: 10px;
-  //     }
-  //   }
-  // }
+      .img-container {
+        .img-bg-1 {
+          width: 290px;
+          height: 350px;
+          background: #dbeffa;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          border-radius: 32px;
+
+          .drJenny {
+            object-fit: cover;
+          }
+        }
+
+        .img-bg-2 {
+          width: 290px;
+          height: 350px;
+          background: #dbdefa;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          border-radius: 32px;
+
+          .drJenny {
+            object-fit: cover;
+          }
+        }
+
+        p {
+          font-family: es-bold;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: -0.02em;
+          text-align: center;
+          color: #181945;
+          padding-top: 1.5rem;
+        }
+
+        .img-bg-3 {
+          width: 290px;
+          height: 350px;
+          background: #f6dbfa;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          border-radius: 32px;
+
+          .drJenny {
+            object-fit: cover;
+          }
+        }
+
+        .img-bg-4 {
+          width: 290px;
+          height: 350px;
+          background: #fadbe2;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          border-radius: 32px;
+
+          .drJenny {
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
 }

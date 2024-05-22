@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DentalTeamComponent {
 DrJenny: string = "/assets/Images/jenny.svg"
+DrDianne: string = "/assets/Images/dianne.svg"
+DrEsther: string = "/assets/Images/esther.svg"
+DrSteward: string = "/assets/Images/steward.svg"
 }
